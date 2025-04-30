@@ -1,0 +1,253 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    padding: 10px;
+    opacity: 90%;
+    box-shadow: 0 0 5px black;
+}
+div img{
+    height: 80px;
+}
+nav a{
+    padding: 10px 40px;
+    padding-top: 25px;
+    color: rgb(121, 12, 12);
+    float:left;
+    text-align:center;
+    text-decoration: none;
+    height: 5px;
+    width: 50px;
+    text-shadow: 0 0 2px gray;
+    font-family: "Cal sans", sans-serif;
+}
+nav a:hover{
+    background-color: rgb(255, 197, 197);
+    padding: 35px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+section.home{
+    background: url(foto/Untitled\ \(1920\ x\ 1080\ px\)\ \(2250\ x\ 1080\ px\).png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    padding-top: 100px;
+}
+section.home div{
+    text-align: center;
+    color: rgb(255, 253, 238);
+    width: 70%;
+    text-shadow: 0 0 10px black;
+    font-family:"Exo 2", sans-serif;
+    margin: auto;
+    padding: 10px;
+}
+section.home .desc{
+    margin-top: 10px;
+    color: rgb(81, 3, 3);
+    font-size: larger;
+}
+section.home .welcome{
+font-size: 30px;
+font-family: "Cal Sans", sans-serif;
+margin-top: 80px;
+margin-left: 190px;
+}
+section.home a{
+    color: rgb(128, 0, 0);
+    background: url(foto/Untitled\ design\ \(1\).jpg);
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 0 0 2px rgb(93, 9, 9);
+    box-shadow: 0px 0px 3px rgb(72, 0, 0);
+    border-radius: 20px;
+    font-family: "Cal Sans", sans-serif;
+}
+section.home a:hover{
+    background-image: url(foto/Untitled\ design\ \(2\).jpg);
+    color: aliceblue;
+    transition: 0.3s ease-out;
+    padding: 15px 25px;
+}
+section.about{
+    background: url(foto/gif.gif);
+    background-size: cover;
+    height: 600px;
+    padding-top: 100px;
+}
+section.about div{
+    text-align: center;
+    color: rgb(113, 0, 0);
+    width: 70%;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    font-family: "Exo 2",sans-serif;
+    margin:auto;
+}
+section.about p{
+    margin-bottom: 100px;
+
+}
+section.about img{
+    height: 300px;
+    width: 850x;
+    border-radius: 8px;
+}
+section.product{
+    background: url(foto/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.product .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding: 100px;
+}
+section.product .container .card{
+    background: url(foto/Untitled\ design\ \(5\).jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 30px;
+    width: 250px;
+    height: 380px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    font-family: "Cal Sans", sans-serif;
+    color: darkred;
+}
+section.product .container .card P{
+    color: black;
+    font-size: 13px;
+    font-family: "Exo 2",sans-serif;
+}
+section.product .container .card h2{
+    color: darkred;
+    font-size: 20px;
+    padding-top: 2px;
+}
+section.product .container .card img{
+height: 150px;
+width: 150px;
+}
+section.product .container .card a{
+color: rgb(2, 14, 10);
+background-color: aliceblue;
+padding: 7px 30px;
+text-decoration: none;
+box-shadow: 0px 0px 3px;
+border-radius: 20px;
+}
+section.product .container .card a:hover{
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    transition: 0.3s ease-out;
+    padding: 10px 35px;
+}
+
+section.product .container .cardd{
+    background: url(foto/Untitled\ design\ \(5\).jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 30px;
+    width: 250px;
+    height: 380px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    font-family: "Cal Sans", sans-serif;
+    color: darkred;
+}
+section.product .container .cardd P{
+    color: black;
+    font-size: 13px;
+    font-family: "Exo 2",sans-serif;
+}
+section.product .container .cardd h2{
+    color: darkred;
+    font-size: 25px;
+    padding-top: 1px;
+}
+section.product .container .cardd img{
+height: 150px;
+width: 150px;
+}
+section.product .container .cardd a{
+color: rgb(2, 14, 10);
+background-color: aliceblue;
+padding: 7px 30px;
+text-decoration: none;
+box-shadow: 0px 0px 3px;
+border-radius: 20px;
+font-family: "Cal Sans", sans-serif;
+}
+section.product .container .cardd a:hover{
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    transition: 0.3s ease-out;
+    padding: 10px 35px;
+}
+
+
+section.contact{
+    background: url(foto/Untitled\ design\ \(1\).jpg);
+    height: 600px;
+    padding-top: 100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap: 50px;
+} 
+section.contact .desc{
+    color: rgb(255, 254, 254);
+    background: url(foto/ok.png);
+    background-size: cover;
+    font-family: "Cal Sans", sans-serif;
+    text-shadow: 0 0px 3px black;
+    box-shadow: 2px 0px 5px rgb(108, 78, 14);
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-align: left;
+    margin: auto;
+}
+section.contact img{
+    height: 350px;
+    width: 400px;
+    margin: 0;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    box-shadow: 0 0 4px black;
+}
+footer .medsos{
+    text-align: center;
+    padding-top: 10px;
+    text-shadow:0 0 2px gray;
+}
+footer .medsos a{
+    color: rgb(105, 8, 8);
+    font-size: 20px;
+    padding: 5px 30px;
+}
+footer .medsos a:hover{
+    color: rgb(105, 8, 8);
+    font-size: 30px;
+    padding: 5px 30px;
+    transition: 0.3s ease-in-out;
+}
